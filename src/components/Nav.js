@@ -9,7 +9,7 @@ class Nav extends Component {
 
         <header>
           <h1><Link to="/">Brian Uskokovich</Link></h1>
-          <h3>Edit guy</h3>
+          <h3>Editor | Colorist</h3>
         </header>
 
         <div className="links">

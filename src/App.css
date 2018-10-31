@@ -1,27 +1,43 @@
+.app {
+  background-color: #282c34;
 
+}
 .waiting {
-  width: 90%;
-  height: 75vh;
+  /* width: 90%; */
+  height: 83vh;
+  
 }
 
 .main {
   text-align: center;
-  margin: 2%;
+  /* margin: 2%; */
+
 }
 
 .nav {
   display: flex;
   justify-content: space-around;
+  /* margin: 2%; */
+  color: #FFFFFF;
 }
 
 .header {
+}
 
+h1 {
+  margin-bottom: 0;
 }
 
 .links {
   display: flex;
   margin: auto 0;
   width: 30%;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .App-header {
