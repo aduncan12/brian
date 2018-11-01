@@ -4,7 +4,7 @@ import '../App.css';
 class Work extends Component {
   render() {
     return (
-      <div className="Work">
+      <div className="work">
         <p>clips go here</p>
       </div>
     );
