@@ -6,6 +6,7 @@ import Main from './Main'
 import Work from './Work'
 import About from './About'
 import Contact from './Contact'
+import Footer from './Footer'
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
           <Route path="/About" component={ About } />
           <Route path="/Contact" component={ Contact } />
         </Switch>
+        <Footer />
       </div>
     );
   }

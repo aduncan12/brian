@@ -1,31 +1,46 @@
 .app {
   background-color: #282c34;
-
+  height: 100%;
 }
+
 .waiting {
   /* width: 90%; */
-  height: 83vh;
-  
+  height: 100%;
 }
 
-.main {
-  text-align: center;
-  /* margin: 2%; */
+#attribute {
+  margin: 0;
+  color: #FFFFFF;
+  font-size: .5rem;
+}
 
+.main, .about, .work, .contact {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  height: 65vh;
+}
+
+#image {
+  text-align: right;
+  height: 100%;
 }
 
 .nav {
-  display: flex;
-  justify-content: space-around;
-  /* margin: 2%; */
+  letter-spacing: 5px;
   color: #FFFFFF;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
 }
 
-.header {
+h1, h2 {
+  margin: 0;
+  padding: 1%;
 }
 
-h1 {
-  margin-bottom: 0;
+h2 {
+  border-top: 1px solid #67f05f;
+  border-bottom: 1px solid #67f05f;
 }
 
 .links {
@@ -38,6 +53,26 @@ h1 {
 a {
   text-decoration: none;
   color: #FFFFFF;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.links a {
+  font-size: 1.3rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  /* margin: 2%; */
+  color: #FFFFFF;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  border-top: 1px solid #67f05f;
+  border-bottom: 1px solid #67f05f;
+  margin-bottom: 2%;
 }
 
 .App-header {
