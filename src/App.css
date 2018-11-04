@@ -4,11 +4,11 @@
 }
 
 .waiting {
-  /* width: 90%; */
+  width: 100%;
   height: 100%;
 }
 
-#attribute {
+.attribute {
   margin: 0;
   color: #FFFFFF;
   font-size: .5rem;
@@ -23,7 +23,8 @@
 
 #image {
   text-align: right;
-  height: 100%;
+  /* height: 60vh; */
+  width: 50vw;
 }
 
 .nav {
@@ -33,34 +34,36 @@
   text-align: center;
 }
 
+.nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
 h1, h2 {
   margin: 0;
   padding: 1%;
 }
 
 h2 {
-  border-top: 1px solid #67f05f;
-  border-bottom: 1px solid #67f05f;
+  border-top: 1px solid #2eb7a1;
+  border-bottom: 1px solid #2eb7a1;
 }
 
 .links {
   display: flex;
   margin: auto 0;
-  width: 30%;
+  width: 70%;
   justify-content: space-around;
 }
 
-a {
+.links a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #6d6d6d;
+  font-size: 1.3rem;
 }
 
 a:hover {
   text-decoration: underline;
-}
-
-.links a {
-  font-size: 1.3rem;
 }
 
 .footer {
@@ -70,40 +73,47 @@ a:hover {
   color: #FFFFFF;
   font-family: 'Raleway', sans-serif;
   text-align: center;
-  border-top: 1px solid #67f05f;
-  border-bottom: 1px solid #67f05f;
+  border-top: 1px solid #2eb7a1;
+  border-bottom: 1px solid #2eb7a1;
   margin-bottom: 2%;
+}
+
+.about {
+  width: 70%;
+  margin: auto;
+}
+
+#profilePic {
+  /* border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  width: 40%;
+  margin-top: auto;
+  margin-bottom: auto; */
+  margin-right: 4%;
+}
+
+#pic {
+  height: 100%;
+  width: 100%;
+  /* border-radius: 10px; */
 }
 
 #summary {
   color: #FFFFFF;
-  width: 80%;
+  width: 60%;
+  height: 100%;
   font-family: 'Lato';
-  font-size: 1.25rem;
-  text-align: justify;
+  font-size: 1.1rem;
+  /* text-align: justify; */
   margin: auto;
+  overflow-y: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.thumbnails {
+  margin: auto 0.5%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* img {
+  width: 248px;
+  height: 316px;
+} */

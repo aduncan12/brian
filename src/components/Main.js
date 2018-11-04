@@ -9,7 +9,7 @@ class Main extends Component {
       <div className="main">
         <div id="image">
           <img src={waiting} className="waiting" alt="waiting backstage" />
-          <p id="attribute">Waiting Backstage by Todd Trotta</p>
+          <p className="attribute">Waiting Backstage by Todd Trotta</p>
         </div>
       </div>
     );
