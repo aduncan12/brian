@@ -14,10 +14,10 @@ class App extends Component {
       <div className="app">
         <Nav />
         <Switch>
-          <Route path="/Work" component={ Work }/>
-          <Route path="/About" component={ About }/>
-          <Route path="/Contact" component={ Contact }/>
-          <Route path="/" component={ Main }/>
+          <Route exact path="/" component={ Main }/>
+          <Route exact path="/Work" component={ Work }/>
+          <Route exact path="/About" component={ About }/>
+          <Route exact path="/Contact" component={ Contact }/>
         </Switch>
         <Footer />
       </div>

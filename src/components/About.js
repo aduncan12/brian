@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
-import lamplighter from '../images/Artwork_by_ToddTrotta/lamplighter.jpg'
+import brian from '../images/Brian.jpg';
 import '../App.css';
+
 
 class About extends Component {
   render() {
+
     return (
       <div className="about">
-        <div id="profilePic">
-          <img src={lamplighter} id="pic" alt="Lamplighter"></img>
-          <p className="attribute">Lamplighter by Todd Trotta</p>
+        <div className="profilePic">
+          <img src={brian} id="pic" alt="Brian Uskokovich"></img>
         </div>
 
         <div id="summary">
