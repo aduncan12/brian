@@ -17,26 +17,25 @@
 .main, .about, .work, .contact {
   display: flex;
   justify-content: center;
-  padding: 2%;
-  height: 70vh;
+  padding-top: 2%;
+  height: 62vh;
 }
 
-#imgDiv {
+/* #imgDiv {
   margin: auto;
-}
+  height: 100%;
+} */
 
 #image {
   text-align: right;
-  height: 60%;
-  width: 60%;
+  width: 80vh;
   margin: auto;
 }
 
 .nav {
-  letter-spacing: 5px;
   color: #FFFFFF;
-  font-family: 'Raleway', sans-serif;
   text-align: center;
+  /* margin-bottom: 2%; */
 }
 
 .nav a {
@@ -44,32 +43,40 @@
   text-decoration: none;
 }
 
-h1, h2 {
+#brian, #editor {
   margin: 0;
-  padding: 1%;
+  font-family: 'Raleway', sans-serif;
 }
 
-h2 {
+#brian {
+  font-size: 10vh;
+  font-weight: 500;
+}
+
+#editor {
   border-top: 1px solid #2eb7a1;
   border-bottom: 1px solid #2eb7a1;
+  font-size: 7.5vh;
+  letter-spacing: 15px;
 }
 
 .links {
   display: flex;
   margin: auto 0;
-  width: 70%;
+  width: 60%;
+  /* height: 11.3vh; */
   justify-content: space-around;
 }
 
 .links a {
   text-decoration: none;
-  color: #6d6d6d;
-  font-size: 1.3rem;
+  color: #9d9d9d;
+  font-size: 2.5rem;
 }
 
-a:hover {
+/* .footer a:hover {
   text-decoration: underline;
-}
+} */
 
 .footer {
   display: flex;
@@ -80,54 +87,77 @@ a:hover {
   text-align: center;
   border-top: 1px solid #2eb7a1;
   border-bottom: 1px solid #2eb7a1;
+  margin-top: 2%;
   margin-bottom: 2%;
 }
 
 .about, .contact {
   width: 70%;
-  height: 80vh;
   margin: auto;
   flex-direction: column;
 }
 
-.profilePic, .contactImg {
+.profilePic {
   margin: auto;
-  text-align: center;
+  text-align: right;
 }
 
 #pic {
-  width: 76%;
+  width: 90%;
   height: 96%;
   border-radius: 10px;
 }
 
 #summary {
   color: #FFFFFF;
-  width: 100%;
+  width: 65%;
   height: 100%;
   font-family: 'Lato';
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   text-align: justify;
-  margin: 3% auto;
+  margin: auto;
   overflow-y: auto;
 }
 
-.work {
+#posters {
+  display: flex;
+  width: 50%;
   justify-content: space-evenly;
 
 }
 
 .thumbnails {
-  margin: auto 0.5%;
+  margin: auto 0;
+  width: 30%;
 }
 
 .movieImg {
-  width: 100%;
+  width: 92%;
   /* height: 120%; */
 }
 
+/* .contact {
+  padding-top: 1%;
+} */
+
+.contactImg {
+  text-align: right;
+  width: 26%;
+  margin: auto;
+}
+
 #lamplighter {
-  width: 40%;
+  /* width: 40%; */
+  width: 100%;
+  /* height: 80%; */
+}
+
+#contactForm {
+  width: 65%;
+  font-family: 'Lato';
+  font-size: 1.5rem;
+  text-align: justify;
+  margin: auto;
   height: 40%;
 }
 
@@ -136,9 +166,9 @@ form {
   grid-template-rows: 20% 60% 20%;
   grid-template-columns: repeat(2, 49%);
   grid-gap: 2%;
-  width: 80%;
-  height: 50%;
-  margin: auto;
+  /* width: 80%; */
+  height: 93%;
+  /* margin: auto; */
 }
 
 #commentName {

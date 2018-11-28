@@ -6,8 +6,8 @@ class Nav extends Component {
   render() {
     return (
       <div className="nav">
-        <h1><Link to="/">Brian Uskokovich</Link></h1>
-        <h2>EDITOR</h2>
+          <p id="brian"><Link to="/">Brian Uskokovich</Link></p>
+          <p id="editor">EDITOR</p>
       </div>
     );
   }
