@@ -7,7 +7,16 @@ class Nav extends Component {
     return (
       <div className="nav">
           <p id="brian"><Link to="/">Brian Uskokovich</Link></p>
-          <p id="editor">EDITOR</p>
+          <div id="editor">
+            <div id="editorDiv">
+              <p>E</p>
+              <p>D</p>
+              <p>I</p>
+              <p>T</p>
+              <p>O</p>
+              <p>R</p>
+            </div>
+          </div>
       </div>
     );
   }

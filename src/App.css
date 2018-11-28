@@ -11,14 +11,14 @@
 .attribute {
   margin: 0;
   color: #FFFFFF;
-  font-size: .5rem;
+  font-size: 1.5vh;
 }
 
 .main, .about, .work, .contact {
   display: flex;
   justify-content: center;
   padding-top: 2%;
-  height: 62vh;
+  height: 61vh;
 }
 
 /* #imgDiv {
@@ -54,24 +54,35 @@
 }
 
 #editor {
+  display: flex;
+  justify-content: center;
   border-top: 1px solid #2eb7a1;
   border-bottom: 1px solid #2eb7a1;
-  font-size: 7.5vh;
-  letter-spacing: 15px;
+}
+
+#editorDiv {
+  font-size: 6vh;
+  display: flex;
+  justify-content: space-between;
+  width: 36vh;
+}
+
+#editorDiv p {
+  margin: 0;
 }
 
 .links {
   display: flex;
   margin: auto 0;
-  width: 60%;
+  width: 80vh;
   /* height: 11.3vh; */
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .links a {
   text-decoration: none;
   color: #9d9d9d;
-  font-size: 2.5rem;
+  font-size: 4vh;
 }
 
 /* .footer a:hover {
@@ -80,11 +91,10 @@
 
 .footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   /* margin: 2%; */
   color: #FFFFFF;
   font-family: 'Raleway', sans-serif;
-  text-align: center;
   border-top: 1px solid #2eb7a1;
   border-bottom: 1px solid #2eb7a1;
   margin-top: 2%;
@@ -92,38 +102,37 @@
 }
 
 .about, .contact {
-  width: 70%;
+  width: 80vh;
   margin: auto;
   flex-direction: column;
 }
 
 .profilePic {
-  margin: auto;
-  text-align: right;
+  margin: 1.5% auto;
 }
 
 #pic {
-  width: 90%;
-  height: 96%;
+  width: 36vh;
+  /* height: 96%; */
   border-radius: 10px;
 }
 
 #summary {
   color: #FFFFFF;
-  width: 65%;
-  height: 100%;
+  /* width: 65%; */
+  /* height: 100%; */
   font-family: 'Lato';
-  font-size: 1.5rem;
+  font-size: 2vh;
   text-align: justify;
   margin: auto;
-  overflow-y: auto;
+  /* overflow-y: auto; */
 }
 
 #posters {
   display: flex;
-  width: 50%;
-  justify-content: space-evenly;
-
+  width: 80vh;
+  text-align: center;
+  justify-content: space-between;
 }
 
 .thumbnails {
@@ -132,7 +141,7 @@
 }
 
 .movieImg {
-  width: 92%;
+  width: 100%;
   /* height: 120%; */
 }
 
@@ -141,19 +150,18 @@
 } */
 
 .contactImg {
-  text-align: right;
-  width: 26%;
-  margin: auto;
+  text-align: center;
+  width: 35vh;
+  margin: 2% auto;
 }
 
 #lamplighter {
-  /* width: 40%; */
-  width: 100%;
+  width: 96%;
   /* height: 80%; */
 }
 
 #contactForm {
-  width: 65%;
+  width: 80vh;
   font-family: 'Lato';
   font-size: 1.5rem;
   text-align: justify;
