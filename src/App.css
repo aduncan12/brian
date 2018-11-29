@@ -143,14 +143,14 @@
 
 .contactImg {
   text-align: right;
-  height: 52vh;
-  width: 36vh;
+  height: 46vh;
+  /* width: 36vh; */
   margin: auto;
   margin-bottom: 2vh;
 }
 
 #lamplighter {
-  width: 100%;
+  width: 36vh;
   /* height: 80%; */
 }
 
@@ -205,4 +205,85 @@ form {
 
 #commentSubmit:hover {
   cursor: pointer;
+}
+
+
+@media screen and (max-width: 560px) {
+  .app {
+    height: 100vh;
+  }
+
+  #brian {
+    font-size: 8vh;
+  }
+
+  #editorDiv {
+    font-size: 4vh;
+    width: 29vh;
+  }
+
+  .links a {
+    font-size: 3vh;
+  }
+
+  .links, .about, .contact, #image, #posters, #contactForm {
+    width: 63vh;
+  }
+
+  #pic, #lamplighter {
+    width: 29vh;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .app {
+    height: 100vh;
+  }
+
+  #brian {
+    font-size: 6vh;
+  }
+
+  #editorDiv {
+    font-size: 2vh;
+    width: 21vh;
+  }
+
+  .links, .about, .contact, #image, #posters, #contactForm {
+    width: 48vh;
+  }
+
+  #pic, #lamplighter {
+    width: 21vh;
+  }
+
+  form {
+    grid-template-columns: repeat(2, 49%);
+  }
+}
+
+@media screen and (min-height: 1000px) {
+  .app {
+    height: 100%;
+  }
+
+  #brian { 
+    font-size: 9vh;
+  }
+
+  #editorDiv {
+    width: 32vh;
+  }
+
+  .links, .about, .contact, #image, #posters, #contactForm {
+    width: 71vh;
+  }
+
+  #pic, #lamplighter {
+    width: 31vh;
+  }
+
+  form {
+    grid-template-columns: repeat(2, 49%);
+  } 
 }
