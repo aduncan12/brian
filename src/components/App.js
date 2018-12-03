@@ -7,6 +7,7 @@ import Work from './Work'
 import About from './About'
 import Contact from './Contact'
 import Footer from './Footer'
+import Thanks from './Thanks'
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
           <Route exact path="/Work" component={ Work }/>
           <Route exact path="/About" component={ About }/>
           <Route exact path="/Contact" component={ Contact }/>
+          <Route exact path="/Thanks" component={ Thanks }/>
         </Switch>
         <Footer />
       </div>
