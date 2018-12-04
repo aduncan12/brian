@@ -13,7 +13,7 @@ class Contact extends Component {
         
         <div id="contactForm">
 
-          <form className="message" method="POST" >   
+          <form className="message" method="POST" action="https://formspree.io/spektarfilms@gmail.com">   
             <input type="text" className="comment" id="commentName" name="name" placeholder="Name" />
             <input type="email" className="comment" id="commentEmail" name="_replyto" placeholder="Email" />
             <input type="hidden" name="_subject" value="From Website" />

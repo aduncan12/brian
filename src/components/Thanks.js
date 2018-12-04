@@ -14,7 +14,6 @@ class Thanks extends Component {
           <h3>Thanks for dropping me a line. I will get back to you shortly.</h3>
           <h4> - Brian Uskokovich</h4>
         </div>
-        
       </div>
     );
   }
