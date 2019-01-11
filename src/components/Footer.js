@@ -7,6 +7,7 @@ class Footer extends Component {
         return (
             <div className="footer">
                 <div className="links">
+                    {/* <p><Link to="News">News</Link></p> */}
                     <p><Link to="About">About</Link></p>
                     <p><Link to="Work">Work</Link></p>
                     <p><Link to="Contact">Contact</Link></p>

@@ -14,7 +14,7 @@
   font-size: 1.5vh;
 }
 
-.main, .about, .work, .contact, .thankyou {
+.main, .about, .work, .contact, .thankyou, .news {
   display: flex;
   justify-content: center;
   margin: 2vh 0;
@@ -100,12 +100,14 @@
 }
 
 .profilePic {
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  /* margin: auto;   */
 }
 
 #pic {
   width: 36vh;
-  /* height: 96%; */
+  height: 30vh;
   border-radius: 10px;
 }
 
@@ -122,6 +124,14 @@
 
 #posters {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80vh;
+
+}
+
+#posters2 {
+  display: flex;
   width: 80vh;
   text-align: center;
   justify-content: space-between;
@@ -130,6 +140,11 @@
 .thumbnails {
   margin: auto 0;
   width: 30%;
+}
+
+.newsThumbnails {
+  margin: 2% auto;
+  width: 18%;
 }
 
 .movieImg {
@@ -143,9 +158,12 @@
 
 .contactImg, .thankImg {
   text-align: right;
-  height: 46vh;
-  /* width: 36vh; */
+  /* height: 46vh; */
+  width: 36vh;
   margin: auto;
+  /* display: block; */
+  /* flex-direction: column; */
+  /* align-items: center; */
   margin-bottom: 2vh;
 }
 
@@ -154,11 +172,11 @@
   /* height: 80%; */
 }
 
-#contactForm {
+/* #contactForm {
   width: 80vh;
   margin: auto;
-  height: 40%;
-}
+  
+} */
 
 form {
   display: grid;
@@ -218,6 +236,7 @@ form {
 h3 {
   margin-top: 0;
   margin-bottom: 2vh;
+  font-style: italic;
 }
 
 @media screen and (max-width: 560px) {
@@ -238,7 +257,7 @@ h3 {
     font-size: 3vh;
   }
 
-  .links, .about, .contact, #image, #posters, #contactForm, .thankyou {
+  .links, .about, .contact, #image, #posters, #posters2, #contactForm, .thankyou {
     width: 63vh;
   }
 
@@ -258,7 +277,7 @@ h3 {
     width: 21vh;
   }
 
-  .links, .about, .contact, #image, #posters, #contactForm, .thankyou {
+  .links, .about, .contact, #image, #posters, #posters2, #contactForm, .thankyou {
     width: 44vh;
   }
 
@@ -277,18 +296,18 @@ h3 {
     font-size: 5vh;
   }
 
-  .links, .about, .contact, #image, #posters, #contactForm, .thankyou {
+  .links, .about, .contact, #image, #posters, #posters2, #contactForm, .thankyou {
     width: 40vh;
   }
 }
 
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 290px) {
 
   #brian {
     font-size: 4vh;
   }
 
-  .links, .about, .contact, #image, #posters, #contactForm, .thankyou {
+  .links, .about, .contact, #image, #posters, #posters2, #contactForm, .thankyou {
     width: 32vh;
   }
 
@@ -310,7 +329,7 @@ h3 {
     width: 32vh;
   }
 
-  .links, .about, .contact, #image, #posters, #contactForm, .thankyou {
+  .links, .about, .contact, #image, #posters, #posters2, #contactForm, .thankyou {
     width: 71vh;
   }
 
