@@ -16,10 +16,10 @@ class Contact extends Component {
           <form className="message" method="POST" action="https://formspree.io/spektarfilms@gmail.com">   
             <input type="text" className="comment" id="commentName" name="name" placeholder="Name" />
             <input type="email" className="comment" id="commentEmail" name="_replyto" placeholder="Email" />
-            <input type="hidden" name="_subject" value="From Website" />
+            {/* <input type="hidden" name="_subject" value="From Website" /> */}
             <textarea type="text" className="comment" id="commentComment" name="comment" placeholder="Say hi..." />                  
-            <input type="hidden" name="_next" value="/Thanks" />
-            <input type="text" name="_gotcha" style={{display: 'none'}} />
+            {/* <input type="hidden" name="_next" value="/Thanks" /> */}
+            {/* <input type="text" name="_gotcha" style={{display: 'none'}} /> */}
             <input type="submit" className="comment" id="commentSubmit" value="SUBMIT" />
           </form>
 

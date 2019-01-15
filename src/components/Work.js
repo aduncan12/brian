@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import bag from '../images/PosterArt_IMDB/BrownPaperBag.jpg'
 import irregardless from '../images/PosterArt_IMDB/Irregardless.jpg'
 import stay from '../images/PosterArt_IMDB/TheStay.jpg'
-import sdbff from '../images/SDBFF19.png'
+import sdbff from '../images/OfficialSelection.png'
 import '../App.css';
 
 class Work extends Component {

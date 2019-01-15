@@ -12,6 +12,7 @@
   margin: 0;
   color: #FFFFFF;
   font-size: 1.5vh;
+  /* width: 100%; */
 }
 
 .main, .about, .work, .contact, .thankyou, .news {
@@ -157,13 +158,14 @@
 } */
 
 .contactImg, .thankImg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: right;
   /* height: 46vh; */
-  width: 36vh;
+  /* width: 36vh; */
   margin: auto;
-  /* display: block; */
-  /* flex-direction: column; */
-  /* align-items: center; */
+  /* margin-top: 1vh; */
   margin-bottom: 2vh;
 }
 
@@ -172,18 +174,45 @@
   /* height: 80%; */
 }
 
-/* #contactForm {
+#contactForm {
+  /* display: table;
+  flex-direction: column; */
   width: 80vh;
   margin: auto;
-  
-} */
+}
+
+#commentName {
+  display: inherit;
+}
+
+#commentEmail {
+  display: inherit;
+}
+
+#commentComment {
+  display: initial;
+  height: 10vh;
+}
+
+#commentSubmit {
+  display: inherit;
+  margin: auto;
+  background-color: #33a937;
+  color: #FFFFFF;
+  border-radius: 10px;
+  font-family: 'Lato';
+  height: 3vh;
+  font-size: 1.5vh;
+}
 
 form {
+  display: flex;
+  flex-direction: column;
   display: grid;
   /* grid-template-rows: 20% 60% 20%;
   grid-template-columns: repeat(2, 49%); */
   grid-gap: 1vh;
-  /* height: 93%; */
+  height: 93%;
 }
 
 #commentName, #commentEmail, #commentComment {
@@ -285,8 +314,13 @@ h3 {
     width: 21vh;
   }
 
+  #pic {
+    height: 19vh;
+  }
+
   form {
-    grid-template-columns: repeat(2, 49%);
+  grid-template-rows: 20% 60% 20%;
+  grid-template-columns: repeat(2, 49%); 
   }
 }
 
@@ -298,6 +332,13 @@ h3 {
 
   .links, .about, .contact, #image, #posters, #posters2, #contactForm, .thankyou {
     width: 40vh;
+  }
+
+  .contactImg {
+    text-align: right;
+    margin: auto;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
   }
 }
 
