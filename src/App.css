@@ -1,6 +1,6 @@
 .app {
   background-color: #282c35;
-  height: 100%;
+  height: 100vh;
 }
 
 .waiting, #king {
@@ -360,7 +360,7 @@ h3 {
 
 @media screen and (min-height: 1000px) {
   .app {
-    height: 100%;
+    height: 100vh;
   }
 
   #brian { 
@@ -377,6 +377,7 @@ h3 {
 
   #pic, #lamplighter {
     width: 31vh;
+    height: 100%;
   }
 
   form {
