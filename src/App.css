@@ -103,6 +103,7 @@
 .profilePic {
   display: flex;
   justify-content: center;
+  height: 30vh;
   /* margin: auto;   */
 }
 
@@ -248,7 +249,7 @@ form {
   font-family: 'Lato';
   height: 3vh;
   font-size: 1.5vh;
-  width: 55px;
+  width: 90px;
 }
 
 #commentSubmit:hover {
@@ -270,16 +271,16 @@ h3 {
 }
 
 @media screen and (max-width: 560px) {
-  .app {
+  /* .app {
     height: 100vh;
-  }
+  } */
 
   #brian {
     font-size: 8vh;
   }
 
   #editorDiv {
-    font-size: 4vh;
+    /* font-size: 4vh; */
     width: 29vh;
   }
 
@@ -298,13 +299,23 @@ h3 {
 
 @media screen and (max-width: 450px) {
 
+  .main, .work, .about, .contact {
+    height: 37vh;
+  }
+
+  #summary {
+    overflow-y: auto;
+    height: 25vh;
+  }
+
   #brian {
     font-size: 5.5vh;
   }
 
   #editorDiv {
-    font-size: 2vh;
+    font-size: 3vh;
     width: 21vh;
+    margin: .5vh 0;
   }
 
   .links, .about, .contact, #image, #posters, #posters2, #contactForm, .thankyou {
