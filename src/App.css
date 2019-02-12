@@ -5,7 +5,7 @@
 
 .waiting, #king {
   width: 100%;
-  height: 96%;
+  height: 97%;
 }
 
 .attribute {
@@ -25,7 +25,7 @@
 #image {
   text-align: right;
   width: 80vh;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .nav {
@@ -103,7 +103,7 @@
 .profilePic {
   display: flex;
   justify-content: center;
-  height: 30vh;
+  /* height: 30vh; */
   /* margin: auto;   */
 }
 
@@ -129,7 +129,6 @@
   flex-direction: column;
   justify-content: center;
   width: 80vh;
-
 }
 
 #posters2 {
@@ -271,9 +270,6 @@ h3 {
 }
 
 @media screen and (max-width: 560px) {
-  /* .app {
-    height: 100vh;
-  } */
 
   #brian {
     font-size: 8vh;
@@ -292,6 +288,10 @@ h3 {
     width: 63vh;
   }
 
+  /* #image {
+    margin: 10% auto;
+  } */
+
   #pic, #lamplighter {
     width: 29vh;
   }
@@ -300,12 +300,13 @@ h3 {
 @media screen and (max-width: 450px) {
 
   .main, .work, .about, .contact {
-    height: 37vh;
+    height: 63vh;
   }
 
   #summary {
     overflow-y: auto;
     height: 25vh;
+    margin: 3vh auto;
   }
 
   #brian {
@@ -321,6 +322,10 @@ h3 {
   .links, .about, .contact, #image, #posters, #posters2, #contactForm, .thankyou {
     width: 44vh;
   }
+
+  /* #image {
+    margin: auto;
+  } */
 
   #pic, #lamplighter {
     width: 21vh;
