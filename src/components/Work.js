@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import bag from '../images/PosterArt_IMDB/BrownPaperBag.jpg'
 import irregardless from '../images/PosterArt_IMDB/Irregardless.jpg'
 import stay from '../images/PosterArt_IMDB/TheStay.jpg'
-import sdbff from '../images/OfficialSelection.png'
+import director from '../images/BPB_SDBFF_BestDirector_Laurel.png'
+import film from '../images/BPB_SDBFF_BestFilm_Laurel.png'
 import '../App.css';
 
 class Work extends Component {
@@ -23,7 +24,8 @@ class Work extends Component {
           </div> 
           <div id="notes">
             <div className="newsThumbnails">
-              <img src={sdbff} className="movieImg" alt="San Diego Black Film Festival 2019"></img>
+              <img src={director} className="sdbff" alt="San Diego Black Film Festival 2019 Best Director"></img>
+              <img src={film} className="sdbff" alt="San Diego Black Film Festival 2019 Best Film"></img>
             </div>
           </div>
         </div>
