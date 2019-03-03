@@ -12,8 +12,7 @@ class News extends Component {
           </div>
           <hr/>
           <div className="event">
-            <a href="https://www.sandiegouniontribune.com/entertainment/movies/sd-et-
-            movies-black-film-festival-20190122-story.html" target="_blank" rel="noopener noreferrer"><h2>“A PEEK INTO 'BROWN PAPER BAG' AND THE SAN DIEGO BLACK FILM FESTIVAL”</h2></a>
+            <a href="https://www.sandiegouniontribune.com/entertainment/movies/sd-et-movies-black-film-festival-20190122-story.html" target="_blank" rel="noopener noreferrer"><h2>“A PEEK INTO 'BROWN PAPER BAG' AND THE SAN DIEGO BLACK FILM FESTIVAL”</h2></a>
             <h3>- THE SAN DIEGO TRIBUNE</h3>
             <h4>January 24, 2019</h4>
           </div>
