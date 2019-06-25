@@ -4,6 +4,7 @@ import irregardless from '../images/PosterArt_IMDB/Irregardless.jpg'
 import stay from '../images/PosterArt_IMDB/TheStay.jpg'
 import director from '../images/BPB_SDBFF_BestDirector_Laurel.png'
 import film from '../images/BPB_SDBFF_BestFilm_Laurel.png'
+import irregardLaurel from '../images/LaurelsFirstTimeSessions.png'
 import '../App.css';
 
 class Work extends Component {
@@ -26,6 +27,7 @@ class Work extends Component {
             <div className="newsThumbnails">
               <img src={director} className="sdbff" alt="San Diego Black Film Festival 2019 Best Director"></img>
               <img src={film} className="sdbff" alt="San Diego Black Film Festival 2019 Best Film"></img>
+              <img src={irregardLaurel} className="sdbff" id="irregardLaurel"></img>
             </div>
           </div>
         </div>
